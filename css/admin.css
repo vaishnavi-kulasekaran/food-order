@@ -1,0 +1,149 @@
+/*
+    Author: Vaishnavi
+    Theme: Food Order Website
+    version: 1.0
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: comic sans ms;
+}
+.wrapper{ 
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: right;
+}
+.success{
+    color: black;
+}
+.error{
+    color: black;
+}
+
+
+/* css menu */
+.menu{
+    border-bottom: 1px solid grey;
+    position: -webkit-sticky;
+    font-size: 20px;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+.menu ul li a:hover{
+    color: #ff4757; 
+}
+
+
+/* css Main Content */
+.main-content{
+    padding: 3% 0;
+    background-color: #f1f2f6;
+}
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+.clearfix{
+    float:none;
+    clear:both;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+      
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+  padding: 15px;
+  border-top: 1px solid #ddd;
+  font-family: comic sans ms;
+}
+th{
+    font-size: 17px;
+}
+.font-sizes{
+    font-size: 13px;
+}
+.fonts-sizes{
+    font-size: 14px;
+}
+tr:hover {background-color:#f5f5f5;}
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight:bold;
+    transition-duration: 0.4s;
+    font-family: comic sans ms;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 10px;
+
+}
+.table-space{
+    tab-size: 4;
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight:bold;
+    font-family: comic sans ms;
+    font-size: 13px;
+    border-radius: 5px;
+    padding: 10px 15px;
+
+}
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+.btn-danger{
+    background-color: #ff6b81;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight:bold;
+    font-family: comic sans ms;
+    font-size: 13px;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+/* Css Footer */
+.footer{
+    background-color: #ff4757;
+    color: white;
+}
+.login{
+    border: 1px solid grey;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+}
